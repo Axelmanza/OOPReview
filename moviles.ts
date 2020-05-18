@@ -17,4 +17,6 @@ console.log(Nokia, iPhone, Samsung);
 // apartado 7
 let moviles: Mobile[] = [Nokia, iPhone, Samsung]
 // apartado 8
-console.log(Nokia.print(), iPhone.print(), Samsung.print());
+Nokia.print();
+iPhone.print();
+Samsung.print();
