@@ -8,8 +8,7 @@ console.log(Nokia);
 console.log(iPhone);
 console.log(Samsung);
 
-Nokia.is5G = true
-Nokia.cameraNumber = 4
+Nokia.setIs5G(true)
+Nokia.setCamNum(4)
 
 console.log(Nokia, iPhone, Samsung);
-
