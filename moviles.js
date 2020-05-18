@@ -7,6 +7,9 @@ var Samsung = new Mobile_1.Mobile('Samsung', 'Galaxy 10', 'Smsng', 64, 'withe', 
 console.log(Nokia);
 console.log(iPhone);
 console.log(Samsung);
-Nokia.is5G = true;
-Nokia.cameraNumber = 4;
+Nokia.setIs5G(true);
+Nokia.setCamNum(4);
 console.log(Nokia, iPhone, Samsung);
+// apartado 7
+var moviles = [Nokia, iPhone, Samsung];
+console.log(Nokia.print(), iPhone.print(), Samsung.print());
