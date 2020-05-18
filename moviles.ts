@@ -12,3 +12,7 @@ Nokia.setIs5G(true)
 Nokia.setCamNum(4)
 
 console.log(Nokia, iPhone, Samsung);
+
+
+// apartado 7
+let moviles: Mobile[] = [Nokia, iPhone, Samsung]
